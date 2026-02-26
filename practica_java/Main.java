@@ -1,5 +1,7 @@
 package practica_java;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args){
         System.out.println("Hello world");
@@ -46,5 +48,18 @@ public class Main {
         byte x = 1;
         ++x;
         x++;
+
+        //scanner
+        
+        
+        //calculadora - ejercicio con scanner
+        System.out.println("Ingrese dos numeros a sumar");
+        Scanner scanner = new Scanner(System.in);
+        byte a1 = scanner.nextByte();
+        byte b1 = scanner.nextByte();
+
+        System.out.println("Total:");
+        System.out.println(a1+b1);
+        scanner.close();
     }
 }
