@@ -49,9 +49,38 @@ public class Main {
         ++x;
         x++;
 
+        //operadores de comparación
+        /*
+        x == x
+        x != x
+        < <= >=
+        */
+
+        //operadores lógicos
+        /* 
+        x || y              or
+        x && y              and
+        !Cola.EstaVacia()   not
+        */
+
+        //condiciónes
+        /*
+        if{
+        }else if{
+        }else{}
+        */
+        
+        /* 
+        operador ternario
+        ?
+        */
+
+        /* 
+        switch
+        case
+        */
+        
         //scanner
-        
-        
         //calculadora - ejercicio con scanner
         System.out.println("Ingrese dos numeros a sumar");
         Scanner scanner = new Scanner(System.in);
