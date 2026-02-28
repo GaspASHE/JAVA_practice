@@ -1,4 +1,4 @@
-package practica_java;
+package practica_java.basico;
 
 public class funciones {
     public static void main(String[] args){
@@ -57,5 +57,4 @@ public class funciones {
             System.out.println(string);
         }
     }
-
 }
